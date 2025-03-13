@@ -1,0 +1,94 @@
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T07:53:26.042Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T08:12:18.588Z"}
+{"level":"info","message":" Connected to MongoDB","timestamp":"2025-03-13T09:26:50.245Z"}
+{"level":"info","message":" Users seeded successfully","timestamp":"2025-03-13T09:26:50.488Z"}
+{"level":"info","message":"Events with status and odds seeded successfully.","timestamp":"2025-03-13T09:26:50.584Z"}
+{"level":"info","message":" Trade placed: User 'user' bet on 'NBA Finals Game 7'","timestamp":"2025-03-13T09:26:50.608Z"}
+{"level":"info","message":"Seeding completed successfully.","timestamp":"2025-03-13T09:26:50.608Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T11:26:29.792Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T11:33:40.980Z"}
+{"level":"warn","message":"Login failed: Incorrect password for username 'admin'","timestamp":"2025-03-13T11:33:50.864Z"}
+{"level":"warn","message":"Login failed: Incorrect password for username 'admin'","timestamp":"2025-03-13T11:33:50.869Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T11:33:55.366Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T11:37:55.366Z"}
+{"level":"info","message":" Connected to MongoDB","timestamp":"2025-03-13T11:43:38.643Z"}
+{"level":"info","message":" Users seeded successfully","timestamp":"2025-03-13T11:43:38.971Z"}
+{"level":"info","message":"Events with status and odds seeded successfully.","timestamp":"2025-03-13T11:43:39.139Z"}
+{"level":"info","message":" Trade placed: User 'user' bet on 'NBA Finals Game 7'","timestamp":"2025-03-13T11:43:39.197Z"}
+{"level":"info","message":"Seeding completed successfully.","timestamp":"2025-03-13T11:43:39.198Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:12:30.430Z"}
+{"level":"info","message":" Connected to MongoDB","timestamp":"2025-03-13T12:14:16.557Z"}
+{"level":"info","message":" Users seeded successfully","timestamp":"2025-03-13T12:14:17.007Z"}
+{"level":"info","message":"Events with status and odds seeded successfully.","timestamp":"2025-03-13T12:14:17.136Z"}
+{"level":"info","message":" Trade placed: User 'user' bet on 'NBA Finals Game 7'","timestamp":"2025-03-13T12:14:17.169Z"}
+{"level":"info","message":"Seeding completed successfully.","timestamp":"2025-03-13T12:14:17.170Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:24:06.663Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:36:49.258Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:41:39.752Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:42:04.787Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:44:11.468Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:44:20.086Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:44:39.611Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T12:44:48.018Z"}
+{"level":"info","message":"New user registered: lekhraj","timestamp":"2025-03-13T12:52:25.010Z"}
+{"level":"info","message":"User logged in: lekhraj","timestamp":"2025-03-13T12:54:31.737Z"}
+{"level":"info","message":"New user registered: lekhraj","timestamp":"2025-03-13T12:57:35.669Z"}
+{"level":"info","message":"New user registered: harkirat","timestamp":"2025-03-13T12:58:36.323Z"}
+{"level":"info","message":"User logged in: lekhraj","timestamp":"2025-03-13T13:00:28.473Z"}
+{"level":"info","message":"User logged in: lekhraj","timestamp":"2025-03-13T13:00:46.571Z"}
+{"level":"info","message":"Fetched all events","timestamp":"2025-03-13T13:04:43.412Z"}
+{"level":"info","message":"Fetched event '67d2cc1992229d44b6a92d0c' successfully","timestamp":"2025-03-13T13:05:54.198Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:08:45.732Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:10:26.017Z"}
+{"level":"warn","message":"No trades found for user '67d2d63fec1f5902a6e541da'","timestamp":"2025-03-13T13:12:00.938Z"}
+{"level":"info","message":"Fetched all events","timestamp":"2025-03-13T13:14:44.674Z"}
+{"level":"info","message":"Fetched event '67d2cc1992229d44b6a92d0c' successfully","timestamp":"2025-03-13T13:14:50.623Z"}
+{"level":"info","message":"Fetched all events","timestamp":"2025-03-13T13:15:22.017Z"}
+{"level":"info","message":"Fetched all events","timestamp":"2025-03-13T13:15:44.944Z"}
+{"level":"warn","message":"No trades found for user '67d2d63fec1f5902a6e541da'","timestamp":"2025-03-13T13:16:47.679Z"}
+{"level":"warn","message":"Trade failed: Event '67d2cc1992229d44b6a92d0c' is not live or does not exist","timestamp":"2025-03-13T13:18:44.916Z"}
+{"level":"error","message":"Error placing trade for user '67d2d63fec1f5902a6e541da' on event '67d2cc1992229d44b6a92d18': Cannot read properties of undefined (reading '_id')","timestamp":"2025-03-13T13:19:55.003Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:20:13.628Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:20:17.970Z"}
+{"level":"error","message":"Error placing trade for user '67d2d63fec1f5902a6e541da' on event '67d2cc1992229d44b6a92d18': Cannot read properties of undefined (reading '_id')","timestamp":"2025-03-13T13:20:19.821Z"}
+{"level":"error","message":"Error placing trade for user '67d2d63fec1f5902a6e541da' on event '67d2cc1992229d44b6a92d18': Cannot read properties of undefined (reading '_id')","timestamp":"2025-03-13T13:20:22.705Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:20:46.932Z"}
+{"level":"error","message":"Error placing trade for user '67d2d63fec1f5902a6e541da' on event '67d2cc1992229d44b6a92d18': Cannot read properties of undefined (reading '_id')","timestamp":"2025-03-13T13:20:47.317Z"}
+{"level":"error","message":"Error placing trade for user '67d2d63fec1f5902a6e541da' on event '67d2cc1992229d44b6a92d18': Cannot read properties of undefined (reading '_id')","timestamp":"2025-03-13T13:20:49.951Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:21:31.813Z"}
+{"level":"error","message":"Error placing trade for user '67d2d63fec1f5902a6e541da' on event '67d2cc1992229d44b6a92d18': Cannot read properties of undefined (reading '_id')","timestamp":"2025-03-13T13:21:36.988Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:22:06.013Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:22:14.974Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:22:20.543Z"}
+{"level":"info","message":"Trade placed successfully by user '67d2d63fec1f5902a6e541da' for event '67d2cc1992229d44b6a92d18'","timestamp":"2025-03-13T13:22:25.632Z"}
+{"level":"info","message":"User '67d2d63fec1f5902a6e541da' is fetching trade '67d2dc11d41b31bb390eb406'","timestamp":"2025-03-13T13:23:56.429Z"}
+{"level":"info","message":"Trade '67d2dc11d41b31bb390eb406' successfully fetched for user '67d2d63fec1f5902a6e541da'","timestamp":"2025-03-13T13:23:56.471Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:26:13.954Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:26:21.801Z"}
+{"level":"info","message":"User '67d2d63fec1f5902a6e541da' is fetching trade '67d2dc11d41b31bb390eb406'","timestamp":"2025-03-13T13:26:40.222Z"}
+{"level":"info","message":"Trade '67d2dc11d41b31bb390eb406' successfully fetched for user '67d2d63fec1f5902a6e541da'","timestamp":"2025-03-13T13:26:40.299Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:27:48.454Z"}
+{"level":"info","message":"User '67d2d63fec1f5902a6e541da' is fetching trade '67d2dc11d41b31bb390eb406'","timestamp":"2025-03-13T13:27:51.339Z"}
+{"level":"info","message":"Trade '67d2dc11d41b31bb390eb406' successfully fetched for user '67d2d63fec1f5902a6e541da'","timestamp":"2025-03-13T13:27:51.382Z"}
+{"level":"info","message":"User logged in: admin","timestamp":"2025-03-13T13:31:09.519Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:32:00.536Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:32:16.423Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:32:21.231Z"}
+{"level":"info","message":"Admin fetched all events","timestamp":"2025-03-13T13:32:27.625Z"}
+{"level":"info","message":"Admin fetched all trades successfully.","timestamp":"2025-03-13T13:33:16.312Z"}
+{"level":"info","message":"Admin fetched all events","timestamp":"2025-03-13T13:33:56.611Z"}
+{"level":"info","message":"Event created successfully: 67d2dfd789e18ead940760cf","timestamp":"2025-03-13T13:38:31.307Z"}
+{"level":"error","timestamp":"2025-03-13T13:40:46.157Z"}
+{"level":"error","timestamp":"2025-03-13T13:41:15.914Z"}
+{"level":"info","message":"Event status updated successfully: 67d2dfd789e18ead940760cf, New Status: live","timestamp":"2025-03-13T13:41:58.476Z"}
+{"level":"info","message":"Event status updated successfully: 67d2dfd789e18ead940760cf, New Status: live","timestamp":"2025-03-13T13:43:43.534Z"}
+{"level":"warn","message":"Invalid odds update attempt for event 67d2dfd789e18ead940760cf: {\"odds\":{\"yes\":\"1.2\",\"no\":\"1.5\"}}","timestamp":"2025-03-13T13:45:24.223Z"}
+{"level":"warn","message":"Invalid odds update attempt for event 67d2dfd789e18ead940760cf: {\"odds\":{\"yes\":\"1.2\",\"no\":\"1.5\"}}","timestamp":"2025-03-13T13:46:13.738Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:46:44.099Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-03-13T13:47:35.144Z"}
+{"level":"info","message":"Odds updated successfully for event 67d2dfd789e18ead940760cf: {\"yes\":\"1.2\",\"no\":\"1.5\"}","timestamp":"2025-03-13T13:47:36.269Z"}
+{"level":"info","message":"Admin fetched all trades successfully.","timestamp":"2025-03-13T13:51:23.857Z"}
+{"level":"error","timestamp":"2025-03-13T13:54:20.323Z"}
+{"level":"warn","message":"Invalid result input for event 67d2dfd789e18ead940760cf","timestamp":"2025-03-13T13:54:57.157Z"}
+{"level":"info","message":"Settling event 67d2dfd789e18ead940760cf with result yes","timestamp":"2025-03-13T13:55:30.375Z"}
+{"level":"info","message":"Event 67d2dfd789e18ead940760cf settled successfully.","timestamp":"2025-03-13T13:55:30.381Z"}

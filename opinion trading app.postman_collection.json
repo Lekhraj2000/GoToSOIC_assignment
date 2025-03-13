@@ -1,0 +1,589 @@
+{
+	"info": {
+		"_postman_id": "8bccd57a-0d80-4827-bf1c-12adf3ecc47c",
+		"name": "opinion trading app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28398469"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"admin\",\r\n    \"password\":\"admin123\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "User or Admin Login"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/signup",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"harkirat\",\r\n    \"email\":\"harkirat@gmail.com\",\r\n    \"password\":\"12333429234\",\r\n    \"role\":\"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"signup"
+					]
+				},
+				"description": "Admin Login"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/signup",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"lekhraj\",\r\n    \"email\":\"lekhraj@gmail.com\",\r\n    \"password\":\"12333429234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"signup"
+					]
+				},
+				"description": "user signup"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/events/67d2cc1992229d44b6a92d0c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"67d2cc1992229d44b6a92d0c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/67d2cc1992229d44b6a92d0c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events"
+					]
+				},
+				"description": "view specific event\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/trades",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyZDYzZmVjMWY1OTAyYTZlNTQxZGEiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0MTg3MDgyOCwiZXhwIjoxNzQyNDc1NjI4fQ.Xm2Zag8c8To3gieF55N1gg_HgvXRFBtLLJBqgOcq-SQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/trades",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"trades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/67d2cc1992229d44b6a92d18",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyZDYzZmVjMWY1OTAyYTZlNTQxZGEiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0MTg3MDgyOCwiZXhwIjoxNzQyNDc1NjI4fQ.Xm2Zag8c8To3gieF55N1gg_HgvXRFBtLLJBqgOcq-SQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"option\":\"yes\",\r\n    \"amount\":100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/67d2cc1992229d44b6a92d18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"67d2cc1992229d44b6a92d18"
+					]
+				},
+				"description": "For Placing Trade\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/trades/67d2dc11d41b31bb390eb406",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyZDYzZmVjMWY1OTAyYTZlNTQxZGEiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0MTg3MDgyOCwiZXhwIjoxNzQyNDc1NjI4fQ.Xm2Zag8c8To3gieF55N1gg_HgvXRFBtLLJBqgOcq-SQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/trades/67d2dc11d41b31bb390eb406",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"trades",
+						"67d2dc11d41b31bb390eb406"
+					]
+				},
+				"description": "view specific trade of user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/events",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/admin/trades",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"trades"
+					]
+				},
+				"description": "Admin only route and can view all trades"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/events",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/admin/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"events"
+					]
+				},
+				"description": "admin only route and can view all events\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/events",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"india vs new zealand\",\r\n    \"category\":\"sports\",\r\n    \"status\":\"upcoming\",\r\n    \"startTime\":\"2025-06-10T18:00:00Z\",\r\n    \"endTime\":\"2025-06-10T20:00:00Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/admin/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"events"
+					]
+				},
+				"description": "admin only route and create event"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/events/67d2dfd789e18ead940760cf/status",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\":\"live\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/admin/events/67d2dfd789e18ead940760cf/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"events",
+						"67d2dfd789e18ead940760cf",
+						"status"
+					]
+				},
+				"description": "admin only and update status"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/events/67d2dfd789e18ead940760cf/odds",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"odds\":{\r\n        \"yes\":\"1.2\",\r\n        \"no\":\"1.5\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/admin/events/67d2dfd789e18ead940760cf/odds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"events",
+						"67d2dfd789e18ead940760cf",
+						"odds"
+					]
+				},
+				"description": "admin only and update odds\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/trades",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/admin/trades",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"trades"
+					]
+				},
+				"description": "admin only and view all trades "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/admin/events/67d2dfd789e18ead940760cf/settle",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyY2MxODkyMjI5ZDQ0YjZhOTJkMDkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NDE4NzI2NjksImV4cCI6MTc0MjQ3NzQ2OX0.s9Jwpsb6RI8rxbqgbj9K_kLZbln24GrRMaU0-USslr4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"result\":\"yes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/admin/events/67d2dfd789e18ead940760cf/settle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"events",
+						"67d2dfd789e18ead940760cf",
+						"settle"
+					]
+				},
+				"description": "admin only and settling the event"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "jwt",
+		"jwt": [
+			{
+				"key": "algorithm",
+				"value": "HS256",
+				"type": "string"
+			},
+			{
+				"key": "isSecretBase64Encoded",
+				"value": false,
+				"type": "boolean"
+			},
+			{
+				"key": "payload",
+				"value": "{}",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "headerPrefix",
+				"value": "Bearer",
+				"type": "string"
+			},
+			{
+				"key": "queryParamKey",
+				"value": "token",
+				"type": "string"
+			},
+			{
+				"key": "header",
+				"value": "{}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
